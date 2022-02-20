@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(41, 41, 41);
+  color: white;
+}
+input {
+  background-color: rgb(70, 70, 70);
+  color: white;
+}
+input[type='text'],
+textarea {
+  background-color: rgb(70, 70, 70);
+  color: white;
+}

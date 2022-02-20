@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css">
+    <title>RockPaperScissors</title>
+  </head>
+  <body>
+    <a href="../index.html"><input type="button" value="Home"></a> <br> <hr>
+   
+    <input type="button" value="Rock" id="rock" onclick="rock()" />
+    <input type="button" value="Paper" id="paper" onclick="paper()" />
+    <input type="button" value="Scissors" id="scissors" onclick="scissors()" />
+    <br /> <br>
+    <div><input type="text" name="mine" id="mine" readonly="readonly" /> Your Choice</div><br />
+    <div><input type="text" name="comp" id="comp" readonly="readonly" /> Computer Choice</div><br />
+    <div><input type="text" name="result" id="result" readonly="readonly" /> Result</div><hr />
+    <h1>Score</h1>
+    <input type="text" name="mRes" id="mRes" readonly="readonly" value="0"/>
+    <input type="text" name="cRes" id="cRes" readonly="readonly" value="0"/>
+    <script src="script.js"></script>
+  </body>
+</html>
