@@ -11,3 +11,12 @@ textarea {
   background-color: rgb(70, 70, 70);
   color: white;
 }
+a {
+  color: #f2f2f2;
+  font-size: 2.5em;
+  color: rgb(211, 211, 211);
+  background-color: transparent;
+}
+a:hover {
+  color: #696969;
+}
