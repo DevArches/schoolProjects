@@ -15,13 +15,15 @@
     <input type="button" value="Rock" id="rock" onclick="rock()" />
     <input type="button" value="Paper" id="paper" onclick="paper()" />
     <input type="button" value="Scissors" id="scissors" onclick="scissors()" />
+    <input type="button" value="Reset" id="reset" onclick="reset()" />
     <br /> <br>
     <div><input type="text" name="mine" id="mine" readonly="readonly" /> Your Choice</div><br />
     <div><input type="text" name="comp" id="comp" readonly="readonly" /> Computer Choice</div><br />
     <div><input type="text" name="result" id="result" readonly="readonly" /> Result</div><hr />
+
     <h1>Score</h1>
-    <input type="text" name="mRes" id="mRes" readonly="readonly" value="0"/>
-    <input type="text" name="cRes" id="cRes" readonly="readonly" value="0"/>
+    <div>Your Score<input type="text" name="mRes" id="mRes" readonly="readonly" value="0"/></div> <br>
+    <div>Computer Score<input type="text" name="cRes" id="cRes" readonly="readonly" value="0"/></div>
     <script src="script.js"></script>
   </body>
 </html>

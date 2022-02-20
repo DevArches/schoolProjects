@@ -10,6 +10,13 @@ function lose() {
   let cRes = parseInt(selector('#cRes').value);
   selector('#cRes').value = cRes + 1;
 }
+function reset() {
+  selector('#mine').value = '';
+  selector('#comp').value = '';
+  selector('#result').value = '';
+  selector('#mRes').value = 0;
+  selector('#cRes').value = 0;
+}
 
 function rock() {
   selector('#mine').value = 'rock';
